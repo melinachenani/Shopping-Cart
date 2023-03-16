@@ -148,3 +148,7 @@ header{
     cursor: pointer;
     background-color: var(--secondaryColor);
 }
+
+.container{
+    margin-bottom: 2rem;
+}
