@@ -7,8 +7,9 @@
     --mainGrey: #7c7c7c;
     --mainSpacing: 0.1rem;
     --mainTransition: all 0.3s linear;
-    --mainRed: #db2777;
+    --mainpink: #db2777;
     --bodyColor: #f6f6f6;
+    --mainRed: #FF0000;
   }
 
 * {
@@ -50,7 +51,7 @@ header{
 }
 .cart-items{
     position: absolute;
-    background-color: red;
+    background-color: var(--mainRed);
     color: var(--mainWhite);
     font-size: 0.75rem;
     width: 20px;
@@ -63,6 +64,9 @@ header{
     right: -12px;
 }
 
+.btn-shopping-cart{
+    cursor: pointer;
+}
 
 /* Toggler */
 .nav__toggler{
